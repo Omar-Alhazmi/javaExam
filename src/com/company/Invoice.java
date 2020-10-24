@@ -41,8 +41,12 @@ public class Invoice {
 
 
     public void printAll(){
-        System.out.println("The Customer Name Is: "+ this.getCustomer()  +"\n"+" The Total Amount before  Discount = "
-                + this.getAmount()  +"\n"+" The Total Amount After " + customer.getDiscount() + "% Discount = "+ getAmountAfterDiscount() );
+        System.out.println("==============================================="+"\n"+
+        "|| The Customer Name Is: "+ this.getCustomer()  +"               ||\n"+"|| The Total Amount before  Discount = "
+                + this.getAmount() +" ||\n"+"|| The Total Amount After " + 
+                customer.getDiscount() + "% Discount = "
+                + getAmountAfterDiscount()+"|| \n"+
+                "===============================================" );
     }
 
 
